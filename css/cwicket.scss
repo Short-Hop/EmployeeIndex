@@ -1,0 +1,69 @@
+header {
+    background-color: white;
+    height: 80px;
+}
+
+body {
+    background-color: lightgrey;
+    margin: 0;
+    padding: 0;
+
+
+    .main {
+        width: 100%;
+        margin: 0 auto; 
+        display: flex;
+        justify-content: center;
+
+
+    .main__container {
+
+        width: 80%;
+        margin: 20px;
+        display:flex;
+        justify-content: center;
+
+    }
+
+    .main__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+
+    }
+
+    .main__text {
+        width: 70%;
+        padding : 50px;
+
+    }
+}
+
+
+    .social {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+
+}
+    .social__icons {
+        width: 80%;
+        display: flex;
+        justify-content: space-evenly;
+
+            img {
+                width: 50px;
+                width: 50px;
+        }
+    }
+
+    }
+
+    footer {
+        background-color: white;
+        height: 120px;
+    }
+
+

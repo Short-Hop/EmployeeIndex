@@ -1,1 +1,82 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+
+h2 {
+  text-align: center;
+  padding: 20px;
+  font-weight: normal;
+  width: 75%;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  background-color: #f3f0ff;
+  margin: 40px;
+}
+
+h3 {
+  margin: 0px;
+}
+
+.header__name {
+  color: white;
+  font-size: 60px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url(../assets/hero_image.jpg);
+  background-size: 100%;
+  height: 30vw;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 5vw;
+}
+
+.box {
+  -webkit-box-shadow: 10px 10px 8px #888888;
+  box-shadow: 10px 10px 8px #888888;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+li {
+  list-style: none;
+  padding: 20px;
+  border: solid black;
+  background-color: #f3f0ff;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+}
+/*# sourceMappingURL=styles.css.map */
