@@ -72,12 +72,11 @@ body .social__icons {
 }
 
 body .social__icons img {
-  width: 50px;
-  width: 50px;
+  width: 30px;
+  width: 30px;
 }
 
 footer {
-  background-color: white;
-  height: 120px;
+  height: 80px;
 }
 /*# sourceMappingURL=cwicket.css.map */
