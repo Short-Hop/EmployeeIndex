@@ -1,3 +1,8 @@
+header {
+  background-color: white;
+  height: 80px;
+}
+
 body {
   background-color: lightgrey;
   margin: 0;
@@ -24,7 +29,6 @@ body .main .main__container {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border: 1px solid black;
 }
 
 body .main .main__img {
@@ -70,5 +74,10 @@ body .social__icons {
 body .social__icons img {
   width: 50px;
   width: 50px;
+}
+
+footer {
+  background-color: white;
+  height: 120px;
 }
 /*# sourceMappingURL=cwicket.css.map */
